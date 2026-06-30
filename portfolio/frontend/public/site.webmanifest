@@ -1,0 +1,16 @@
+{
+  "name": "Artur Portfolio",
+  "short_name": "Artur",
+  "description": "Portefolio pessoal premium de Artur.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070d",
+  "theme_color": "#05070d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
