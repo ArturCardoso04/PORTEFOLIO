@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portefólio pessoal de Artur, estudante de Engenharia Informática em Castro Daire, Viseu, com foco em frontend, JavaScript, React, redes e sistemas."
+    />
+    <meta name="theme-color" content="#f8faf8" />
+    <title>Artur | Frontend, Redes e Sistemas</title>
+    <link rel="preload" as="image" href="assets/hero-bg-light.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Artur, voltar ao início">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span class="brand-text">Artur</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          data-nav-toggle
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-links" id="primary-navigation" data-nav-menu>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <p class="eyebrow reveal" data-reveal>
+            Engenharia Informática | Frontend | Redes & Sistemas
+          </p>
+          <h1 id="hero-title" class="reveal" data-reveal>Artur</h1>
+          <p class="hero-lead reveal" data-reveal>
+            Estudante de Engenharia Informática, 22 anos, de Castro Daire,
+            Viseu. Construo interfaces claras, rápidas e bem pensadas,
+            cruzando desenvolvimento web com uma base sólida em redes e
+            sistemas informáticos.
+          </p>
+
+          <div class="hero-actions reveal" data-reveal>
+            <a class="button button-primary" href="#projetos">Ver projetos</a>
+            <a class="button button-secondary" href="#contactos">Falar comigo</a>
+          </div>
+
+          <dl class="hero-stats reveal" data-reveal aria-label="Resumo de perfil">
+            <div>
+              <dt>22</dt>
+              <dd>anos</dd>
+            </div>
+            <div>
+              <dt>CTeSP</dt>
+              <dd>Redes e Sistemas</dd>
+            </div>
+            <div>
+              <dt>2025</dt>
+              <dd>Monitor de TI</dd>
+            </div>
+          </dl>
+        </div>
+        <a class="scroll-cue" href="#sobre" aria-label="Avançar para Sobre Mim">
+          <span aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="section" id="sobre" aria-labelledby="sobre-title">
+        <div class="container section-grid">
+          <div class="section-heading reveal" data-reveal>
+            <p class="section-kicker">Sobre mim</p>
+            <h2 id="sobre-title">Perfil técnico com curiosidade prática.</h2>
+          </div>
+
+          <div class="section-copy reveal" data-reveal>
+            <p>
+              Sou o Artur, estudante da Licenciatura em Engenharia Informática e
+              titular de um CTeSP em Redes e Sistemas Informáticos. Tenho uma
+              forma de trabalhar muito orientada para clareza: gosto de perceber
+              o problema, estruturar a solução e transformar ideias em
+              interfaces funcionais, consistentes e fáceis de usar.
+            </p>
+            <p>
+              O meu percurso junta desenvolvimento web, JavaScript, React,
+              HTML, CSS e manutenção de redes e sistemas. Essa combinação dá-me
+              uma visão completa do produto: não olho apenas para o ecrã, mas
+              também para a base técnica que permite que tudo funcione com
+              estabilidade.
+            </p>
+          </div>
+
+          <div class="profile-list reveal" data-reveal aria-label="Dados rápidos">
+            <article>
+              <span>Localização</span>
+              <strong>Castro Daire, Viseu, Portugal</strong>
+            </article>
+            <article>
+              <span>Formação</span>
+              <strong>Licenciatura em Engenharia Informática</strong>
+            </article>
+            <article>
+              <span>Base técnica</span>
+              <strong>CTeSP em Redes e Sistemas Informáticos</strong>
+            </article>
+            <article>
+              <span>Foco atual</span>
+              <strong>Frontend moderno, React e sistemas fiáveis</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <p class="section-kicker">Skills</p>
+            <h2 id="skills-title">Competências com aplicação direta.</h2>
+            <p>
+              Um conjunto equilibrado entre criação de interfaces, programação
+              web e suporte técnico, pensado para construir experiências úteis e
+              manter a infraestrutura a acompanhar o produto.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal" data-reveal>
+              <span class="skill-index">01</span>
+              <h3>React</h3>
+              <p>
+                Componentização, estados, construção de interfaces reutilizáveis
+                e organização de aplicações frontend.
+              </p>
+            </article>
+            <article class="skill-card reveal" data-reveal>
+              <span class="skill-index">02</span>
+              <h3>JavaScript</h3>
+              <p>
+                Interatividade, lógica de interface, manipulação do DOM e
+                comportamento dinâmico em experiências web.
+              </p>
+            </article>
+            <article class="skill-card reveal" data-reveal>
+              <span class="skill-index">03</span>
+              <h3>HTML</h3>
+              <p>
+                Estrutura semântica, acessibilidade base e organização clara de
+                conteúdos para interfaces responsivas.
+              </p>
+            </article>
+            <article class="skill-card reveal" data-reveal>
+              <span class="skill-index">04</span>
+              <h3>CSS</h3>
+              <p>
+                Layouts flexíveis, design responsivo, animações suaves,
+                sistemas visuais e polimento de detalhe.
+              </p>
+            </article>
+            <article class="skill-card reveal" data-reveal>
+              <span class="skill-index">05</span>
+              <h3>Redes</h3>
+              <p>
+                Noções práticas de infraestrutura, conectividade, diagnóstico e
+                manutenção de ambientes informáticos.
+              </p>
+            </article>
+            <article class="skill-card reveal" data-reveal>
+              <span class="skill-index">06</span>
+              <h3>Sistemas</h3>
+              <p>
+                Instalação, manutenção e suporte técnico com atenção à
+                estabilidade, organização e continuidade de serviço.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projetos" aria-labelledby="projetos-title">
+        <div class="container">
+          <div class="section-header reveal" data-reveal>
+            <p class="section-kicker">Projetos</p>
+            <h2 id="projetos-title">Projetos em preparação para publicação.</h2>
+            <p>
+              A seleção pública ainda está a ser organizada. Em vez de mostrar
+              trabalhos incompletos, esta secção apresenta o tipo de projetos
+              que vão representar melhor o percurso técnico.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card project-card-featured reveal" data-reveal>
+              <div class="project-meta">
+                <span>Em curadoria</span>
+                <span>Frontend</span>
+              </div>
+              <h3>Interfaces React com foco em usabilidade</h3>
+              <p>
+                Projetos orientados a componentes, estados e navegação fluida,
+                com atenção ao detalhe visual e à experiência em mobile e
+                desktop.
+              </p>
+              <ul>
+                <li>Componentes reutilizáveis</li>
+                <li>Layouts responsivos</li>
+                <li>Microinterações e feedback visual</li>
+              </ul>
+            </article>
+
+            <article class="project-card reveal" data-reveal>
+              <div class="project-meta">
+                <span>Em preparação</span>
+                <span>JavaScript</span>
+              </div>
+              <h3>Experiências web interativas</h3>
+              <p>
+                Pequenas aplicações e interfaces experimentais para demonstrar
+                lógica, animação, validação de dados e comportamento dinâmico no
+                browser.
+              </p>
+            </article>
+
+            <article class="project-card reveal" data-reveal>
+              <div class="project-meta">
+                <span>Em preparação</span>
+                <span>Redes & Sistemas</span>
+              </div>
+              <h3>Documentação técnica e suporte</h3>
+              <p>
+                Trabalhos ligados a manutenção de sistemas, diagnóstico,
+                organização de infraestrutura e boas práticas de suporte
+                informático.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-muted"
+        id="experiencia"
+        aria-labelledby="experiencia-title"
+      >
+        <div class="container section-grid">
+          <div class="section-heading reveal" data-reveal>
+            <p class="section-kicker">Experiência</p>
+            <h2 id="experiencia-title">Percurso académico e prática no terreno.</h2>
+          </div>
+
+          <div class="timeline reveal" data-reveal>
+            <article class="timeline-item">
+              <span class="timeline-date">Verão 2026</span>
+              <h3>Monitor de TI especializado</h3>
+              <p>
+                Campo de férias para jovens, com responsabilidade técnica em
+                atividades ligadas a tecnologia, apoio informático e orientação
+                prática em ambiente educativo.
+              </p>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-date">Atual</span>
+              <h3>Licenciatura em Engenharia Informática</h3>
+              <p>
+                Formação superior focada em programação, engenharia de software,
+                sistemas e bases técnicas essenciais para desenvolvimento
+                moderno.
+              </p>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-date">Concluído</span>
+              <h3>CTeSP em Redes e Sistemas Informáticos</h3>
+              <p>
+                Percurso técnico com base em redes, manutenção, suporte e
+                administração de sistemas informáticos.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contactos" aria-labelledby="contactos-title">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal" data-reveal>
+            <p class="section-kicker">Contactos</p>
+            <h2 id="contactos-title">Disponível para conversas profissionais.</h2>
+            <p>
+              Aberto a oportunidades, colaboração e projetos ligados a frontend,
+              suporte técnico, redes e sistemas. A partir da região de Viseu,
+              com disponibilidade para trabalhar em contextos locais ou remotos.
+            </p>
+          </div>
+
+          <div class="contact-panel reveal" data-reveal>
+            <div class="contact-row">
+              <span>Interesse</span>
+              <strong>Frontend, TI, Redes e Sistemas</strong>
+            </div>
+            <div class="contact-row">
+              <span>Disponibilidade</span>
+              <strong>Projetos, estágios e colaboração</strong>
+            </div>
+            <div class="contact-row">
+              <span>Email</span>
+              <strong>
+                <a href="mailto:arturfcardoso04@gmail.com">arturfcardoso04@gmail.com</a>
+              </strong>
+            </div>
+            <div class="contact-row">
+              <span>Telefone</span>
+              <strong><a href="tel:+351936254615">936 254 615</a></strong>
+            </div>
+            <div class="contact-actions" aria-label="Ações de contacto">
+              <a class="button button-primary" href="mailto:arturfcardoso04@gmail.com">
+                Enviar email
+              </a>
+              <a class="button button-secondary" href="tel:+351936254615">Ligar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>Artur | Portefólio pessoal</p>
+        <a href="#inicio">Voltar ao topo</a>
+      </div>
+    </footer>
+  </body>
+</html>
