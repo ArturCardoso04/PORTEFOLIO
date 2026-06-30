@@ -14,7 +14,7 @@ Experiencia
 - Monitor de Tecnologia num campo de ferias para criancas do 1.º ciclo, Verao 2026
 
 Competencias
-React, JavaScript, HTML, CSS, Redes, Sistemas Informaticos, Inteligencia Artificial, Prompt Engineering, Criacao de Conteudo, Automacao, Git, GitHub e Resolucao de Problemas.
+React, JavaScript, HTML, CSS, Redes, Sistemas Informaticos, Inteligencia Artificial, Prompt Engineering, Automacao, Git, GitHub e Resolucao de Problemas.
 
 Projetos
 - Projetos oficiais em preparacao para publicacao.

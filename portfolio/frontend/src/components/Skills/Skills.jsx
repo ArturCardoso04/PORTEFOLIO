@@ -32,7 +32,6 @@ const iconMap = {
   "Resolucao de Problemas": FaTools,
   "Inteligencia Artificial": FaBrain,
   "Prompt Engineering": FaCode,
-  "Criacao de Conteudo": FaCode,
   Redes: FaNetworkWired,
   "Sistemas Informaticos": FaServer
 };

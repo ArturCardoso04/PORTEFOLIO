@@ -1,4 +1,4 @@
-import { FaDumbbell, FaGamepad, FaGraduationCap, FaKeyboard, FaMapMarkerAlt } from "react-icons/fa";
+import { FaCompass, FaGamepad, FaGraduationCap, FaKeyboard, FaMapMarkerAlt } from "react-icons/fa";
 import GlassCard from "../Cards/GlassCard.jsx";
 import Reveal from "../Animations/Reveal.jsx";
 import { education, interests, personalInfo } from "../../utils/portfolioData.js";
@@ -7,7 +7,7 @@ const profileCards = [
   { icon: FaMapMarkerAlt, label: "Localizacao", value: personalInfo.location },
   { icon: FaGraduationCap, label: "Formacao", value: "Licenciatura em Engenharia Informatica, em curso" },
   { icon: FaKeyboard, label: "Base tecnica", value: "CTeSP em Redes e Sistemas Informaticos, concluido em 2025" },
-  { icon: FaDumbbell, label: "Rotina", value: "Estudo, treino e desenvolvimento pessoal" }
+  { icon: FaCompass, label: "Perfil", value: "Organizacao, curiosidade e desenvolvimento pessoal" }
 ];
 
 export default function About() {

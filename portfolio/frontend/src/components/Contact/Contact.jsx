@@ -5,8 +5,7 @@ import {
   FaLinkedinIn,
   FaMapMarkerAlt,
   FaPaperPlane,
-  FaPhone,
-  FaTiktok
+  FaPhone
 } from "react-icons/fa";
 import Button from "../Buttons/Button.jsx";
 import Reveal from "../Animations/Reveal.jsx";
@@ -18,7 +17,6 @@ const channelIcons = {
   Telefone: FaPhone,
   LinkedIn: FaLinkedinIn,
   GitHub: FaGithub,
-  TikTok: FaTiktok,
   Localizacao: FaMapMarkerAlt
 };
 

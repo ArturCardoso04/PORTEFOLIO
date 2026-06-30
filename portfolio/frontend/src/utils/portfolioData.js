@@ -12,7 +12,7 @@ export const personalInfo = {
   about:
     "Sou uma pessoa curiosa, organizada e com muita vontade de aprender. Gosto de trabalhar com calma, perceber bem os problemas e melhorar aos poucos, com atencao ao detalhe e respeito pelo processo. A tecnologia interessa-me porque junta criatividade, logica e impacto pratico.",
   lifestyle:
-    "Fora do estudo e dos projetos, gosto de gaming, piano digital, tecnologia, inteligencia artificial, criar conteudo para TikTok e manter uma rotina ligada ao treino e ao desenvolvimento pessoal. Sao interesses que me ajudam a manter disciplina, criatividade e equilibrio."
+    "Fora do estudo e dos projetos, gosto de gaming, tecnologia, inteligencia artificial e de acompanhar a evolucao do mundo digital. Sao interesses que me mantem curioso e ajudam-me a olhar para cada desafio com criatividade e sentido pratico."
 };
 
 export const assets = {
@@ -33,7 +33,7 @@ export const heroStats = [
   { value: 22, suffix: "", label: "anos", detail: "perfil jovem, disciplinado e em crescimento" },
   { value: 2, suffix: "", label: "formacoes", detail: "Licenciatura em curso e CTeSP concluido" },
   { value: 14, suffix: "+", label: "competencias", detail: "web, IA, redes, sistemas e automacao" },
-  { value: 2026, suffix: "", label: "experiencia TI", detail: "monitor num campo de ferias para jovens" }
+  { value: 2026, suffix: "", label: "experiencia TI", detail: "monitor de tecnologia em campo de ferias" }
 ];
 
 export const education = [
@@ -121,10 +121,6 @@ export const skillCategories = [
       {
         name: "Prompt Engineering",
         description: "Criacao de prompts claros, iteracao controlada e utilizacao de IA em contexto real."
-      },
-      {
-        name: "Criacao de Conteudo",
-        description: "Ideacao, escrita, edicao e comunicacao de tecnologia em formatos curtos."
       }
     ]
   },
@@ -180,19 +176,16 @@ export const timeline = [
   },
   {
     year: "Continuo",
-    title: "Evolucao em web, IA e criacao de conteudo",
+    title: "Evolucao em web, IA e aprendizagem continua",
     text:
-      "Aprendizagem constante em React, automacao, prompt engineering, conteudo tecnologico e produtos digitais."
+      "Aprendizagem constante em React, automacao, prompt engineering e desenvolvimento de produtos digitais."
   }
 ];
 
 export const interests = [
   "Gaming",
-  "Piano Digital",
   "Tecnologia",
   "Inteligencia Artificial",
-  "Conteudo para TikTok",
-  "Bodybuilding",
   "Desenvolvimento pessoal"
 ];
 
@@ -216,11 +209,6 @@ export const contactChannels = [
     label: "GitHub",
     value: "Codigo, projetos web e evolucao tecnica",
     href: `mailto:${personalInfo.email}?subject=Pedido%20de%20GitHub`
-  },
-  {
-    label: "TikTok",
-    value: "Criacao de conteudo sobre tecnologia e IA",
-    href: `mailto:${personalInfo.email}?subject=Contacto%20via%20TikTok`
   },
   {
     label: "Localizacao",
